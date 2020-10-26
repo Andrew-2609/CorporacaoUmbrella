@@ -1,0 +1,136 @@
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: white;
+    color: white;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+.divDoMenuFixo {
+    position: fixed;
+    z-index: 998;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#dismiss:hover {
+    background: lightblue;
+    color: rgb(0,169,158);
+}
+
+#corporacaoMenu {
+    font-weight: bold;
+    font-family: times;
+}
+
+#umbrellaMenu {
+    font-weight: normal;
+    font-family: times;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgb(0,169,158);
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: black;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: rgb(0,169,158);
+}
+
+#btnLogin {
+    background: rgb(0,169,158);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    border: 1px solid rgb(0,169,158);
+    width: 130px;
+    margin-bottom: 4px;
+}
+
+#btnCadastro {
+    background: rgb(0,169,158);
+    text-align: center;
+    padding: 5px;
+    color: white;
+    border: 1px solid rgb(0,169,158);
+    width: 130px;
+}
+
+#btnLogin:hover {
+    background-color: rgb(0,129,118);
+}
+
+#btnCadastro:hover {
+    background-color: rgb(0,129,118);   
+}
+
+#tituloModal {
+    background-color: rgb(0,169,158);
+    color: white;
+}
+
+#corpoModal {
+    background-color: white;
+}
+
+#footerModal {
+    background-color: rgb(0,169,158);
+}
+
+#btnModalExtra {
+    background: transparent;
+    border: 1px solid white;
+}
+
+#btnModalExtra:hover {
+    background-color: white;
+}
+
+#btnModalFechar {
+    background-color: white;
+}

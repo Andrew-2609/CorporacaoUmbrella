@@ -1,0 +1,222 @@
+body,html{	
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+}
+.imagensAtivas {
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.s1{
+	background-image: url(../imagens/mockupMenu.jpg) ;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color : #fff;
+	font-size: 45px;
+
+}
+.textoPagina1{
+	padding-right: 50%; 
+}
+.s2{
+	background-image: url(../imagens/umbrellaTop.jpg) ;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	text-align: center;
+
+}
+img.ativo{
+	width: 900px;
+	height: 600px;
+
+}
+.s3{
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: brightness(100%);
+	background-color: red;
+	color: #fff;
+	font-color: white;
+}
+.s3:after{
+	background-color: none;
+
+}
+.s3:before{
+	background-color: red;
+	color: white;
+}
+.s3 
+
+.textoPagina1 {
+	margin-right: 45px;
+	padding-right: 100%;
+	font-size: 50px;
+	color: white;
+}
+.myButton {
+	margin-right: -10px;
+	margin: -10px 12px 40px;
+	background-color:#25b8ac;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:13px 55px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #25b8ac;
+}
+.myButton:hover {
+	background-color:#25b8ac;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton2 {
+	box-shadow:inset 0px -22px 0px -24px #e67a73;
+	background-color:transparent;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #faf1f0;
+}
+.myButton2:hover {
+	background-color:transparent;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+h2.textoPagina2{
+	margin-top: -59px;
+
+}
+
+.contact-info{
+	display: flex;
+	width: 100%;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+	padding : 0 10px;
+}
+.card{
+	background: #339998;
+	padding: 0 20px;
+	margin: 0 10px;
+	width: calc(33% - 20px);
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer;
+}
+.card-icon{
+	font-size: 28px;
+	background: #ff6348;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	line-height: 60px !important;
+	border-radius: 50%;
+	transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+	background : none;
+	color: #ff6348;
+	transform: scale(1.6);
+}
+.card p{
+	margin-top: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	max-height: 0;
+	transition: 0.3s linear;
+}
+.card:hover p{
+	max-height: 40px;
+	opacity: 1;
+}
+.middle{
+	position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  color: white;
+}
+.counting-sec{
+  padding: 40px 0;
+  width: 100%;
+  background: ;
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+.col{
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.col i{
+  font-size: 40px;
+  color: #fff;
+}
+.num{
+  font-size: 40px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.texto{
+	text-align: center;
+	position: top;
+	padding-top: -50%;
+	margin-top: -340px;
+	margin-right: -130px;
+	color : #fff;
+}
+.nosso{
+	text-align: center;
+}
+.cardio{
+	size: 35px;
+	background-size: 20px;
+}

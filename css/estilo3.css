@@ -1,0 +1,128 @@
+.produtosLado {
+	color: white;
+	background-color: rgba(103,166,157,0.9);
+	position: absolute;
+}
+
+#tituloProdutos {
+	font-size: 70px;
+	margin-left: 30px;
+	margin-top: 150px;
+}
+
+.textoProdutos {
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+.hrComprasDe {
+	border: 2px solid rgb(1,168,158);
+}
+
+.sessao2 {
+	background-color: white;
+}
+
+.comprasAcima {
+	text-align: center;
+}
+
+.tituloMark {
+	font-size: 15px;
+	color: rgb(35,97,118);
+	font-weight: bold;
+}
+
+.subtituloMark {
+	font-size: 12px;
+	color: rgb(102,102,102);
+}
+
+.imagensComprasDe {
+	margin-left: 10px;
+}
+
+#descontos {
+	margin-left: 5%;
+}
+
+.sessao4 {
+	background-color: rgba(103,168,148,0.9);
+}
+
+#tituloCompras {
+	margin-top: 50px;
+	color: white;
+}
+
+.divProdutos {
+	border-radius: 10px;
+	border: 1px solid rgb(61,185,174);
+	text-align: center;
+	margin: 5px;
+	background-color: white;
+}
+
+.divProdutos h5 {
+	font-size: 15px;
+}
+
+.divProdutos h4 {
+	color: gray;
+}
+
+.inputsComprar {
+	color: rgb(75,159,135);
+	background: none;
+	border: 2px solid gray;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	transition: 0.5s all ease;
+}
+
+.inputsComprar:hover {
+	background-color: rgb(75,159,135);
+	color: white;
+	transition: 0.5s all ease;
+}
+
+.anteriorProximo {
+	background-color: rgb(0,169,156);
+	color: white;
+	border-radius: 10px;
+	border: 1px solid rgb(0,169,156);
+}
+
+.botoesProximo {
+	border-radius: 25px;
+	background-color: rgb(0,169,156);
+	color: white;
+	border: 1px solid rgb(0,169,156);
+}
+
+.inputNomeProduto {
+	display: inline-block;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+	font-family: impact;
+	height: 25px;
+}
+
+.simboloRs {
+	color: gray;
+	margin-bottom: -1px;
+	font-weight: bold;
+}
+
+.inputPrecoProduto {
+	color: gray;
+	display: inline-block;
+	border: none;
+	text-align: center;
+	outline: none;
+	margin-bottom: 4px;
+	font-weight: bold;
+}

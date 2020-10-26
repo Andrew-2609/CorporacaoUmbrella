@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(230,230,230);
+}
+
+.quemSomosQuemSomos {
+	background-color: lightblue;
+	background-image: url(../imagens/quemSomosWallpaperCortada.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.quemSomosDivLado {
+	margin-left: 66%;
+	background-color: rgba(0,159,148, 0.5);
+}
+
+.titulo {
+	margin-top: 120px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+#tituloQuem {
+	font-size: 60px;
+	color: white;
+}
+
+#tituloSomos {
+	font-size: 60px;
+	margin-top: -10px;
+	margin-left: 50px;
+
+	color: transparent;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: white; 
+}
+
+.textoDivLado {
+	color: white;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nomeNossoTime {
+	margin-left: 10%;
+	width: 80%;
+	background-color: rgb(230,230,230);
+	text-align: left;
+	padding-top: 15px;
+}
+
+.markNosso {
+	color: rgb(71,154,158);
+	background: none;
+	margin-right: -15px;
+}
+
+.markTime {
+	background: none;
+	color: rgb(71,154,158);
+	font-weight: bolder;
+}
+
+#hrNossoTime {
+	border: 2px solid rgb(1,167,167);
+	width: 120%;
+}
+
+.imagensNossoTime {
+	margin-left: 10%;
+	width: 80%;	
+	background-color: rgb(230,230,230);
+}
+
+.nomesImagens {
+	margin-top: 10px;
+	font-size: 25px;
+	color: rgb(71,154,158);
+}
+
+.funcoesImagens {
+	color: rgb(180,180,180);
+	font-size: 20px;
+}
+
+.textosImagens {
+	color: rgb(97,97,97,97);
+	font-size: 15px;
+}
